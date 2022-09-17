@@ -8,7 +8,7 @@ const Page2 = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("/alluser", {
+    fetch("https://assingment-server.herokuapp.com/alluser", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -24,7 +24,7 @@ const Page2 = () => {
   }, []);
 
   setInterval(() => {
-    fetch("/alluser", {
+    fetch("https://assingment-server.herokuapp.com/alluser", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -41,7 +41,7 @@ const Page2 = () => {
 
   const onSearch = (name) => {
     setSearch(name);
-    fetch("/search", {
+    fetch("https://assingment-server.herokuapp.com/search", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

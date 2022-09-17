@@ -61,7 +61,7 @@ const Page1 = () => {
       return;
     }
     try {
-      fetch("/submit", {
+      fetch("https://assingment-server.herokuapp.com/submit", {
         method: "POST",
         headers: {
           Accept: "application/json",
