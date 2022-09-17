@@ -1,0 +1,64 @@
+.mycard {
+    margin-top: 30px;
+}
+
+.auth-card {
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    margin: 10px auto;
+}
+a {
+    color: black !important;
+}
+
+.brand-logo,
+h2 {
+    font-family: "Grand Hotel", cursive;
+}
+#dob {
+    margin-right: 15px;
+    font-size: medium;
+    color: black;
+}
+.dob {
+    max-width: 200px;
+}
+#gender {
+    margin-right: 15px;
+    font-size: medium;
+    color: black;
+}
+.gender {
+    margin-right: 15px;
+    font-size: medium;
+    color: black;
+}
+
+.image-span {
+    width: 320px;
+}
+
+.toe {
+    max-width: 200px;
+}
+#toe {
+    margin-right: 15px;
+    font-size: medium;
+    color: black;
+}
+#upload-profile {
+    margin-right: 15px;
+    font-size: medium;
+    color: black;
+    max-width: 50px;
+}
+.upload-profile {
+    max-width: 200px;
+    font-size: medium;
+    color: black;
+}
+.btn:active {
+    transition: all 0.1s ease-in-out;
+    transform: scale(0.8);
+}
